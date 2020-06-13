@@ -14,6 +14,9 @@ m2 =([1,2,3],
      [9,5,5],
      [4,7,8]
      )
-result = np.add(m1 , m2)
-result = np.subtract(m1 , m2)
-result = np.dot(m1 , m2)
+result1 = np.add(m1 , m2)
+result2 = np.subtract(m1 , m2)
+result3 = np.dot(m1 , m2)
+print(result1)
+print(result2)
+print(result3)
